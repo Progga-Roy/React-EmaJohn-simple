@@ -41,11 +41,14 @@
 .cart-btn {
     width: 100%;
     background: #FFE0B3;
-    border: none;
+    border: 0;
     outline: none;
     border-radius: 0px 0px 8px 8px;
     position: absolute;
     bottom: 0;
     color: #0E161A;
-
+   
+}
+.cart-btn:hover{
+    background-color: orange;
 }
