@@ -1,0 +1,55 @@
+.reviewItem{
+    width: 571px;
+    height: 107px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #95A0A7;
+    margin: 21px auto;
+    border-radius: 8px;
+    
+}
+.reviewItem img{
+    width: 91px;
+    height: 91px;
+    gap: 10px;
+    border-radius: 8px;
+    margin: 8px;
+}
+.reviewItem p{
+    padding: 0;
+    margin: 0;
+}
+.review-details{
+    flex-grow: 1;
+}
+.name{
+    /* font-family: 'Lato'; */
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+color: #1C2B35;
+word-break: wrap;
+}
+.color{
+    color:#FF9900;
+}
+ button{
+margin-right: 23px;
+width: 55px;
+height: 55px;
+border-radius: 50%;
+background: #e6c8c8;
+display: flex;
+justify-content: center;
+align-items: center; 
+
+} 
+.btn{
+    width: 37px;
+    height: 37px;
+    color:  #EB5757;
+   
+   
+}
