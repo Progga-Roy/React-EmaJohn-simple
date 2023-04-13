@@ -15,7 +15,7 @@ const ReviewItem = ({product,handleRemoveItem}) => {
             <p>Order quantity:<span className='color'> ${product.quantity}</span></p>
            </div>
 
-           <button onClick={()=>{handleRemoveItem(product.id)}}> <FontAwesomeIcon icon={faTrashAlt} className='btn'></FontAwesomeIcon></button>
+           <button onClick={()=>{handleRemoveItem(product.id)}} className='delete-btn'> <FontAwesomeIcon icon={faTrashAlt} className='btn'></FontAwesomeIcon></button>
          
          
         </div>

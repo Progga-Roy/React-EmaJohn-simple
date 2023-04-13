@@ -2,7 +2,37 @@
     background: #FFE0B3;
     height: 100%;
     padding-left:22px ;
+    position: sticky;
+    top: 0;
 }
 .cart-item{
     margin-top: 50px;
+}
+.clear-btn{
+    width: 90%;
+height: 48px;
+background: #FF3030;
+border-radius: 4px;
+color:#FFFFFF;
+font-size: 17px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.proceed-btn{
+    width: 90%;
+height: 48px;
+background: #FF9900;
+border-radius: 4px;
+margin-top:16px;
+color:#FFFFFF;
+font-size: 17px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.order-icon{
+    
+/* margin-top: 10px; */
+font-size: bold;
 }

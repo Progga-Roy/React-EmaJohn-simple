@@ -35,7 +35,7 @@ word-break: wrap;
 .color{
     color:#FF9900;
 }
- button{
+ .delete-btn{
 margin-right: 23px;
 width: 55px;
 height: 55px;
